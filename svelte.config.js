@@ -18,9 +18,9 @@ const config = {
 			assets: 'build',
 			fallback: null
 		  }),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/bmarkham' : ''
-		}
+		// paths: {
+		// 	base: process.env.NODE_ENV === 'production' ? '/bmarkham' : ''
+		// }
 	}
 };
 
