@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -16,8 +16,11 @@ const config = {
 			split: false,
 			pages: 'build',
 			assets: 'build',
-			fallback: null
+			fallback: 'index.html'
 		  }),
+		// prerender: {
+		// 	default: true
+		// }
 		// paths: {
 		// 	base: process.env.NODE_ENV === 'production' ? '/bmarkham' : ''
 		// }
