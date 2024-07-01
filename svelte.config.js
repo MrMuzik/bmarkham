@@ -13,11 +13,14 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			edge: false,
-			split: false
+			split: false,
+			pages: 'build',
+			assets: 'build',
+			fallback: null
 		  }),
-		// paths: {
-		// 	base: process.env.NODE_ENV === 'production' ? '/bmarkham' : ''
-		// }
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/bmarkham' : ''
+		}
 	}
 };
 
