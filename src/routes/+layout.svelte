@@ -1,5 +1,5 @@
 <script>
-  import "../app.css";
+  import "../app.scss";
   import { assets } from '$app/paths';
   import { page } from '$app/stores';
   const currentYear = new Date().getFullYear();
