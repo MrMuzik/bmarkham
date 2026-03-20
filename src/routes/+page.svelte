@@ -1,6 +1,14 @@
 <svelte:head>
-  <title>Bryan Markham — HubSpot &amp; Shopify Performance Engineer</title>
-  <meta name="description" content="I fix slow, broken, and underperforming HubSpot and Shopify builds. Senior front-end engineer with 18 years of experience delivering measurable performance outcomes." />
+  <title>Bryan Markham — HubSpot & Shopify Performance Engineer</title>
+  <meta name="description" content="Senior front-end engineer specializing in HubSpot CMS and Shopify performance recovery. 18 years experience. I diagnose slow, broken, and underperforming builds and deliver outcomes you can measure." />
+  <meta property="og:title" content="Bryan Markham — HubSpot & Shopify Performance Engineer" />
+  <meta property="og:description" content="I fix slow, broken, and underperforming HubSpot and Shopify builds. Fast. 118s → under 1s load time recovery. Available for agency subcontracting and direct engagements." />
+  <meta property="og:url" content="https://bryanmarkham.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://bryanmarkham.com/images/og-home.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bryan Markham — HubSpot & Shopify Performance Engineer" />
+  <meta name="twitter:description" content="I fix slow, broken, and underperforming HubSpot and Shopify builds. Fast." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
