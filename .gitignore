@@ -1,5 +1,7 @@
 .DS_Store
-.claude/launch.json
+.claude/
+bmarkhamSiteFiles/
+bmarkham.code-workspace
 node_modules
 /build
 /.svelte-kit
