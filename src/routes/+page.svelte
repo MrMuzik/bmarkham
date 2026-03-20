@@ -10,7 +10,7 @@
 <nav>
   <div class="container">
     <div class="nav-logo">Bryan<span>.</span>Markham</div>
-    <a href="/cdn-cgi/l/email-protection#f391818a929ddd9e9281989b929eb39a909f9c8697dd909c9e" class="nav-cta">Get in Touch</a>
+    <a href="mailto:bryan.markham@icloud.com" class="nav-cta">Get in Touch</a>
   </div>
 </nav>
 
@@ -32,7 +32,7 @@
           ship the fix, and deliver outcomes you can measure.
         </p>
         <div class="hero-actions">
-          <a href="/cdn-cgi/l/email-protection#96f4e4eff7f8b8fbf7e4fdfef7fbd6fff5faf9e3f2b8f5f9fb" class="btn-primary">
+          <a href="mailto:bryan.markham@icloud.com" class="btn-primary">
             Start a Conversation →
           </a>
           <a href="https://www.linkedin.com/in/bryanmarkham" target="_blank" rel="noopener" class="btn-secondary">
@@ -255,7 +255,7 @@
         <p class="contact-sub">HubSpot CMS, Shopify, React, Vue. Performance audits to full implementations.</p>
       </div>
       <div class="contact-links">
-        <a href="/cdn-cgi/l/email-protection#4d2f3f342c2363202c3f26252c200d242e21223829632e2220" class="contact-link"><span class="__cf_email__" data-cfemail="d4b6a6adb5bafab9b5a6bfbcb5b994bdb7b8bba1b0fab7bbb9">[email&#160;protected]</span></a>
+        <a href="mailto:bryan.markham@icloud.com" class="contact-link">Start a Conversation →</a>
         <a href="https://www.linkedin.com/in/bryanmarkham" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/bryanmarkham</a>
         <a href="tel:9496377120" class="contact-link">(949) 637-7120</a>
       </div>
@@ -269,7 +269,7 @@
     <div class="footer-copy">© 2026 Bryan Markham</div>
     <div class="footer-links">
       <a href="https://www.linkedin.com/in/bryanmarkham" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
-      <a href="/resume" class="footer-link">Resume</a>
+      <a href="/case-studies/sunoco" class="footer-link">Case Study</a>
     </div>
   </div>
 </footer>
