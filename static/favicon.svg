@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark warm brown background with rounded corners -->
+  <rect width="32" height="32" rx="5" fill="#2C1A0E"/>
+  <!-- Subtle orange border for depth -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" fill="none" stroke="#FF6A00" stroke-width="0.75" stroke-opacity="0.3"/>
+  <!-- Left vertical bar -->
+  <rect x="4" y="4" width="5" height="24" fill="#FF6A00"/>
+  <!-- Right vertical bar -->
+  <rect x="23" y="4" width="5" height="24" fill="#FF6A00"/>
+  <!-- Left diagonal (top of left bar down to center valley) -->
+  <polygon points="4,4 9,4 16,21 16,15" fill="#FF6A00"/>
+  <!-- Right diagonal (center valley up to top of right bar) -->
+  <polygon points="28,4 23,4 16,21 16,15" fill="#FF6A00"/>
+</svg>
