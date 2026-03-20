@@ -1,5 +1,14 @@
 <svelte:head>
-  <title>Case Study — Sunoco Race Fuels / HubSpot CMS Performance Recovery</title>
+  <title>HubSpot CMS Performance Recovery — Sunoco Race Fuels | Bryan Markham</title>
+  <meta name="description" content="LCP dropped from 118 seconds to 0.9 seconds. Core Web Vitals passed. HubDB architecture rebuilt from scratch to eliminate render-blocking dependency chain." />
+  <meta property="og:title" content="HubSpot CMS Performance Recovery — Sunoco Race Fuels" />
+  <meta property="og:description" content="LCP: 118s → 0.9s. Core Web Vitals passed mobile and desktop. HubDB architecture rebuilt from scratch." />
+  <meta property="og:url" content="https://bryanmarkham.com/case-studies/sunoco" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://bryanmarkham.com/images/og-sunoco.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HubSpot CMS Performance Recovery — Sunoco Race Fuels" />
+  <meta name="twitter:description" content="LCP: 118s → 0.9s. Core Web Vitals passed mobile and desktop." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
