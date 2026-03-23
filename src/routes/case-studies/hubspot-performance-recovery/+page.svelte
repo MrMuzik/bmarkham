@@ -1,13 +1,13 @@
 <svelte:head>
-  <title>HubSpot CMS Performance Recovery — Sunoco Race Fuels | Bryan Markham</title>
+  <title>HubSpot CMS Performance Recovery — Fortune 500 Racing Fuel Brand | Bryan Markham</title>
   <meta name="description" content="LCP dropped from 118 seconds to 0.9 seconds. Core Web Vitals passed. HubDB architecture rebuilt from scratch to eliminate render-blocking dependency chain." />
-  <meta property="og:title" content="HubSpot CMS Performance Recovery — Sunoco Race Fuels" />
+  <meta property="og:title" content="HubSpot CMS Performance Recovery — Fortune 500 Racing Fuel Brand" />
   <meta property="og:description" content="LCP: 118s → 0.9s. Core Web Vitals passed mobile and desktop. HubDB architecture rebuilt from scratch." />
-  <meta property="og:url" content="https://bryanmarkham.com/case-studies/sunoco" />
+  <meta property="og:url" content="https://bryanmarkham.com/case-studies/hubspot-performance-recovery" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://bryanmarkham.com/images/og-sunoco.png" />
+  <meta property="og:image" content="https://bryanmarkham.com/images/og-racing-fuel.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="HubSpot CMS Performance Recovery — Sunoco Race Fuels" />
+  <meta name="twitter:title" content="HubSpot CMS Performance Recovery — Fortune 500 Racing Fuel Brand" />
   <meta name="twitter:description" content="LCP: 118s → 0.9s. Core Web Vitals passed mobile and desktop." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
@@ -23,8 +23,8 @@
     <div class="card-header">
       <div class="card-header-left">
         <div class="card-platform">HubSpot CMS Performance Recovery</div>
-        <div class="card-title">Sunoco Race Fuels<br />HubSpot Architecture Rebuild</div>
-        <div class="card-meta">Via agency engagement &nbsp;·&nbsp; sunocoracefuels.com &nbsp;·&nbsp; 2024</div>
+        <div class="card-title">A Fortune 500-Backed Racing Fuel Brand<br />HubSpot Architecture Rebuild</div>
+        <div class="card-meta">HubSpot CMS &nbsp;·&nbsp; National Motorsport &nbsp;·&nbsp; 2024</div>
       </div>
       <div class="cwv-badge">
         <div class="cwv-dot"></div>
@@ -119,8 +119,7 @@
 
     <!-- FOOTER -->
     <div class="card-footer">
-      <div class="footer-attribution">Via agency engagement &nbsp;·&nbsp; All conclusions based on observable, public data</div>
-      <a href="https://www.sunocoracefuels.com/fuels" target="_blank" rel="noopener" class="footer-link">View live site ↗</a>
+      <div class="footer-attribution">All conclusions based on observable, public data</div>
     </div>
 
   </div>

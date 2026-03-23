@@ -91,18 +91,18 @@
     <div class="section-label">Selected Work</div>
     <div class="cases">
 
-      <!-- Case 1: Sunoco -->
+      <!-- Case 1: Fortune 500 Racing Fuel Brand -->
       <div class="case">
         <div class="case-body">
           <div class="case-platform">HubSpot CMS</div>
-          <div class="case-title">Performance Recovery — Sunoco Race Fuels</div>
-          <div class="case-context">Via agency engagement · <a href="https://www.sunocoracefuels.com/fuels" target="_blank" rel="noopener" class="case-url">sunocoracefuels.com <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-left:2px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div>
+          <div class="case-title">Performance Recovery — A Fortune 500-Backed Racing Fuel Brand</div>
+          <div class="case-context">HubSpot CMS · National Motorsport</div>
           <p class="case-desc">
             Diagnosed catastrophic load performance on a HubSpot CMS platform serving a national motorsport brand.
             Rebuilt the HubDB architecture from scratch, restructured template logic, and eliminated the render-blocking
             dependency chain causing the failure. The site now passes Google Core Web Vitals with verified real user data.
           </p>
-          <a href="/case-studies/sunoco" class="case-study-link">View case study →</a>
+          <a href="/case-studies/hubspot-performance-recovery" class="case-study-link">View case study →</a>
         </div>
         <div class="case-metrics">
           <div class="metric">
@@ -277,7 +277,7 @@
     <div class="footer-copy">© 2026 Bryan Markham</div>
     <div class="footer-links">
       <a href="https://www.linkedin.com/in/bryanmarkham" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
-      <a href="/case-studies/sunoco" class="footer-link">Case Study</a>
+      <a href="/case-studies/hubspot-performance-recovery" class="footer-link">Case Study</a>
     </div>
   </div>
 </footer>
