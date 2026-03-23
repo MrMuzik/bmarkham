@@ -120,12 +120,12 @@
         </div>
       </div>
 
-      <!-- Case 2: Penske -->
+      <!-- Case 2: High-Performance Suspension Company -->
       <div class="case">
         <div class="case-body">
           <div class="case-platform">HubSpot CMS</div>
-          <div class="case-title">Landing Page Build — Penske Racing Shocks</div>
-          <div class="case-context">Via agency engagement · <a href="https://www.penskeshocks.com/custom-manufacturing" target="_blank" rel="noopener" class="case-url">penskeshocks.com <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-left:2px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div>
+          <div class="case-title">Landing Page Build — A High-Performance Suspension Company</div>
+          <div class="case-context">HubSpot CMS · B2B Motorsport</div>
           <p class="case-desc">
             Built a custom HubSpot CMS landing page to support a targeted B2B marketing campaign. Used Sprocket Rocket
             to develop fully custom modules aligned with brand guidelines, optimized for lead capture, and responsive
