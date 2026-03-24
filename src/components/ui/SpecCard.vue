@@ -15,11 +15,30 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div class="border border-site-border rounded-lg bg-site-card p-6">
-    <div class="flex items-center gap-2 mb-3">
-      <span class="block w-1.5 h-1.5 rounded-full bg-site-teal"></span>
-      <h3 class="font-display text-base font-semibold text-site-text">{{ title }}</h3>
-    </div>
-    <p class="text-sm text-site-text-desc leading-relaxed">{{ description }}</p>
+  <div class="spec-card">
+    <div class="spec-title">{{ title }}</div>
+    <p class="spec-desc">{{ description }}</p>
   </div>
 </template>
+
+<style scoped>
+.spec-card {
+  background: #0F0800;
+  padding: 28px 32px;
+}
+
+.spec-title {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5EDE0;
+  margin-bottom: 8px;
+}
+
+.spec-desc {
+  font-size: 14px;
+  color: #7A6858;
+  line-height: 1.6;
+  font-weight: 300;
+}
+</style>

@@ -4,21 +4,21 @@ export const specializations: Specialization[] = [
   {
     title: 'HubSpot CMS Performance',
     description:
-      'HubDB architecture, template optimization, asset pipeline restructuring, and CWV recovery. Focused on enterprise HubSpot environments where performance has degraded.',
+      'HubDB architecture, template optimization, render-blocking resolution, and Core Web Vitals recovery for HubSpot-hosted sites.',
   },
   {
     title: 'Shopify Front-End',
     description:
-      'Theme architecture, Liquid optimization, section/block patterns, and storefront performance. Custom builds and recovery work for high-traffic Shopify stores.',
+      'Theme architecture, Liquid optimization, section schema design, and storefront performance tuning for Shopify and Shopify Plus.',
   },
   {
     title: 'React & Vue Engineering',
     description:
-      'Component system architecture, bundle optimization, state management, and build pipeline configuration. Production-grade SPA and SSR implementations.',
+      'Component system architecture, bundle optimization, memory leak diagnosis, and performance-focused front-end engineering for SaaS products.',
   },
   {
     title: 'Conversion & UX Audit',
     description:
-      'Funnel friction analysis, landing page optimization, A/B testing infrastructure, and conversion rate improvement. Data-driven UX decisions backed by analytics.',
+      'Funnel friction analysis, landing page optimization, ad-to-page congruency review, and UX improvements tied to measurable conversion outcomes.',
   },
 ]
