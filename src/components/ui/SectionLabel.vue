@@ -1,6 +1,6 @@
 /**
- * SectionLabel — Displays a monospace label with an orange dot indicator.
- * Used as a section heading marker throughout the homepage.
+ * SectionLabel — Monospace label with decorative extending line.
+ * Matches the original "Selected Work ———————" pattern.
  *
  * @props label - The text to display
  */
@@ -13,8 +13,26 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div class="flex items-center gap-2 mb-6">
-    <span class="block w-1.5 h-1.5 rounded-full bg-site-orange"></span>
-    <span class="font-mono text-xs tracking-widest uppercase text-site-text-muted">{{ label }}</span>
-  </div>
+  <div class="section-label">{{ label }}</div>
 </template>
+
+<style scoped>
+.section-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: #6A5848;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}
+</style>

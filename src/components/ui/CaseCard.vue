@@ -1,22 +1,25 @@
 /**
- * CaseCard — Displays a case study card with platform, title, context, and metrics.
- * Optionally links to a detailed case study page.
+ * CaseCard — Reusable case study card with two-column layout.
+ * Left: CaseCardBody (platform, title, context, description, optional link)
+ * Right: CaseCardMetrics (vertically stacked metric values)
  *
- * @props platform - The platform label (e.g., "HubSpot CMS")
- * @props title - The case study title
- * @props context - Context/subtitle text
- * @props href - Optional route path to case study detail
+ * @props platform - Platform label
+ * @props title - Case study title
+ * @props context - Context/subtitle
+ * @props description - Full description
+ * @props href - Optional route path to detail page
  * @props metrics - Array of { value, label } metric objects
  */
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
 import type { Metric } from '@/types/metric'
-import MetricDisplay from './MetricDisplay.vue'
+import CaseCardBody from './CaseCardBody.vue'
+import CaseCardMetrics from './CaseCardMetrics.vue'
 
 interface Props {
   platform: string
   title: string
   context: string
+  description: string
   href?: string
   metrics: Metric[]
 }
@@ -25,35 +28,37 @@ defineProps<Props>()
 </script>
 
 <template>
-  <component
-    :is="href ? RouterLink : 'div'"
-    :to="href"
-    class="block border border-site-border rounded-lg bg-site-card hover:bg-site-card-hover transition-colors duration-200 overflow-hidden"
-    :class="{ 'hover:border-site-border-accent cursor-pointer': href }"
-  >
-    <div class="p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="block w-1.5 h-1.5 rounded-full bg-site-orange"></span>
-        <span class="font-mono text-xs text-site-text-muted uppercase tracking-wider">{{ platform }}</span>
-      </div>
-      <h3 class="font-display text-lg font-semibold text-site-text mb-2 leading-snug">{{ title }}</h3>
-      <p class="font-mono text-xs text-site-context">{{ context }}</p>
-    </div>
-    <div
-      class="flex items-center justify-start gap-6 px-6 py-4 border-t border-site-border"
-    >
-      <MetricDisplay
-        v-for="(metric, i) in metrics"
-        :key="i"
-        :value="metric.value"
-        :label="metric.label"
-      />
-    </div>
-    <div
-      v-if="href"
-      class="px-6 py-3 border-t border-site-border"
-    >
-      <span class="font-mono text-xs text-site-orange hover:text-site-orange-hover transition-colors">View Case Study →</span>
-    </div>
-  </component>
+  <div class="case-card">
+    <CaseCardBody
+      :platform="platform"
+      :title="title"
+      :context="context"
+      :description="description"
+      :href="href"
+    />
+    <CaseCardMetrics :metrics="metrics" />
+  </div>
 </template>
+
+<style scoped>
+.case-card {
+  background: #1A1000;
+  padding: 36px 40px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  align-items: start;
+  transition: background 0.2s;
+}
+
+.case-card:hover {
+  background: #0F0800;
+}
+
+@media (max-width: 768px) {
+  .case-card {
+    grid-template-columns: 1fr;
+    padding: 28px 24px;
+  }
+}
+</style>

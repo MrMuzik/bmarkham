@@ -1,9 +1,9 @@
 /**
  * MetricDisplay — Shows a single performance metric with value and label.
- * Used in case study cards and the case study detail page.
+ * Used inside CaseCard for right-aligned stats.
  *
  * @props value - The metric value (e.g., "118s → 0.9s")
- * @props label - The metric label (e.g., "LCP")
+ * @props label - The metric label (e.g., "LCP (was → now)")
  */
 <script setup lang="ts">
 interface Props {
@@ -15,8 +15,31 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div class="text-center">
-    <div class="font-mono text-sm text-site-text">{{ value }}</div>
-    <div class="font-mono text-xs text-site-text-muted mt-1">{{ label }}</div>
+  <div class="metric">
+    <div class="metric-value">{{ value }}</div>
+    <div class="metric-label">{{ label }}</div>
   </div>
 </template>
+
+<style scoped>
+.metric {
+  text-align: right;
+}
+
+.metric-value {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #34D399;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+.metric-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  color: #9A7858;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+</style>
