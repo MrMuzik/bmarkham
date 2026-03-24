@@ -1,38 +1,45 @@
-# create-svelte
+# bryanmarkham.com
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Personal portfolio site for Bryan Markham — Senior Front-End Engineer specializing in HubSpot CMS and Shopify performance recovery.
 
-## Creating a project
+Built with Vue 3, TypeScript, and Vite. Deployed on Netlify.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- **Vue 3** — Composition API with `<script setup lang="ts">`
+- **TypeScript** — Strict mode with typed data and interfaces
+- **Vite 5** — Build tool with path aliases
+- **Tailwind CSS 3** — Named design tokens, no arbitrary values
+- **Vue Router 4** — `createWebHistory` with two routes
+- **Netlify** — Static hosting with SPA redirect
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Development
 
 ```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+## Build
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Type-check and build for production. Output goes to `dist/`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Project Structure
+
+```
+src/
+├── assets/styles/     # Tailwind directives and CSS reset
+├── components/
+│   ├── layout/        # SiteNav, SiteFooter
+│   ├── sections/      # HeroSection, StatsBar, CaseStudiesSection, etc.
+│   └── ui/            # CaseCard, SpecCard, CredentialItem, etc.
+├── composables/       # useHead, useMediaQuery, useScrollPosition
+├── data/              # Typed data arrays (case studies, credentials, etc.)
+├── router/            # Vue Router configuration
+├── types/             # TypeScript interfaces
+└── views/             # HomeView, HubspotCaseStudyView
+```
