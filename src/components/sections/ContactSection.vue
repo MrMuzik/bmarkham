@@ -1,40 +1,45 @@
 /**
- * ContactSection — Contact block with availability message and contact links.
+ * ContactSection — "Work Together" section with contact block.
  * Orange-accent border, two-column grid layout matching original design.
+ * Includes section header with decorative line.
  */
 <script setup lang="ts">
+import SectionLabel from '@/components/ui/SectionLabel.vue'
 </script>
 
 <template>
   <section class="section">
     <div class="max-w-[1000px] mx-auto px-8">
+      <SectionLabel label="Work Together" />
       <div class="contact-block">
         <div class="contact-copy">
           <div class="contact-headline">
-            Available for agency subcontracting and direct engagements.
+            Available for agency subcontracting<br />and direct engagements.
           </div>
-          <p class="contact-sub">Let's talk about your project.</p>
+          <p class="contact-sub">
+            HubSpot CMS, Shopify, React, Vue. Performance audits to full implementations.
+          </p>
         </div>
         <div class="contact-links">
           <a
             href="mailto:bryan.markham@icloud.com"
-            class="contact-link contact-link--accent"
+            class="contact-link"
           >
-            bryan.markham@icloud.com
+            Start a Conversation →
           </a>
           <a
-            href="https://www.linkedin.com/in/bryanmarkham/"
+            href="https://www.linkedin.com/in/bryanmarkham"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             class="contact-link"
           >
-            LinkedIn ↗
+            linkedin.com/in/bryanmarkham
           </a>
           <a
-            href="tel:+19804299989"
+            href="tel:9496377120"
             class="contact-link"
           >
-            (980) 429-9989
+            (949) 637-7120
           </a>
         </div>
       </div>
@@ -88,21 +93,13 @@
 .contact-link {
   font-family: 'DM Mono', monospace;
   font-size: 13px;
-  color: #7A6858;
+  color: #FF6A00;
   text-decoration: none;
   letter-spacing: 0.04em;
   transition: color 0.2s;
 }
 
 .contact-link:hover {
-  color: #F5EDE0;
-}
-
-.contact-link--accent {
-  color: #FF6A00;
-}
-
-.contact-link--accent:hover {
   color: #FF8C38;
 }
 
