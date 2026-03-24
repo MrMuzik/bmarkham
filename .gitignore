@@ -4,7 +4,9 @@ bmarkhamSiteFiles/
 bmarkham.code-workspace
 node_modules
 /build
+/dist
 /.svelte-kit
+/.netlify
 /package
 .env
 .env.*
