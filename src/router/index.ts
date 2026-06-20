@@ -10,12 +10,29 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/case-studies/hubspot-performance-recovery',
-      name: 'hubspot-case-study',
-      component: () => import('@/views/HubspotCaseStudyView.vue'),
+      path: '/margin-leak-audit',
+      name: 'margin-leak-audit',
+      component: () => import('@/views/MarginLeakAuditView.vue'),
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('@/views/AboutView.vue'),
+    },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('@/views/PrivacyView.vue'),
+    },
+    {
+      path: '/terms',
+      name: 'terms',
+      component: () => import('@/views/TermsView.vue'),
     },
   ],
-  scrollBehavior() {
+  scrollBehavior(to, _from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) return { el: to.hash, behavior: 'smooth', top: 80 }
     return { top: 0 }
   },
 })

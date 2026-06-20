@@ -3,25 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bryan Markham — Senior Front-End Engineer</title>
-    <meta name="description" content="18 years of front-end engineering focused on performance recovery, funnel optimization, and CMS architecture." />
+    <title>Bryan Markham — Margin Leak Audits for DTC Brands</title>
+    <meta name="description" content="Revenue up, profit flat? Your store is leaking margin at specific, findable points. I find them, rank them by dollar impact, and hand you the fix order. 18 years of engineering behind every diagnosis." />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Bryan Markham — Senior Front-End Engineer" />
-    <meta property="og:description" content="18 years of front-end engineering focused on performance recovery, funnel optimization, and CMS architecture." />
+    <meta property="og:title" content="Bryan Markham — Margin Leak Audits for DTC Brands" />
+    <meta property="og:description" content="Revenue up, profit flat? Your store is leaking margin at specific, findable points. I find them, rank them by dollar impact, and hand you the fix order." />
     <meta property="og:image" content="/images/og-home.png" />
     <meta property="og:url" content="https://bryanmarkham.com" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" href="/favicon.png" />
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Plus Jakarta Sans + Inter + Fraunces -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Inter:wght@400;500&family=Fraunces:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -33,6 +32,16 @@
       gtag('js', new Date());
       gtag('config', 'G-FJP2TEVV9K');
     </script>
+
+    <!-- Netlify Forms detection: static copy of the request form -->
+    <form name="audit-request" netlify hidden>
+      <input type="email" name="email" />
+      <input type="url" name="store-url" />
+      <input type="text" name="revenue-range" />
+      <input type="text" name="traffic-sources" />
+      <textarea name="symptom"></textarea>
+      <textarea name="goal"></textarea>
+    </form>
   </head>
   <body>
     <div id="app"></div>

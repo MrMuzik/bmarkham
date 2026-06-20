@@ -8,27 +8,97 @@
   }
 
   body {
-    font-family: 'DM Sans', sans-serif;
-    background-color: #2C1A0E;
-    color: #F5EDE0;
+    font-family: Inter, sans-serif;
+    background-color: #FAFAF7;
+    color: #1B2634;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    position: relative;
+    line-height: 1.65;
   }
 
-  /* Noise texture overlay — requires pseudo-element, cannot be expressed with Tailwind utilities */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-    opacity: 0.4;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
   }
 
   #app {
-    position: relative;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+  }
+}
+
+@keyframes navCtaPulse {
+  0%, 100% { background-position: 0% 50%; }
+  50%       { background-position: 100% 50%; }
+}
+
+@layer components {
+  .btn-nav-cta {
+    @apply hidden md:inline-flex items-center justify-center px-5 py-2 rounded text-white font-display font-medium text-[13px] tracking-tight hover:opacity-90 transition-opacity duration-150;
+    background: linear-gradient(135deg, #0D8A7C 0%, #2D3F54 50%, #0D8A7C 100%);
+    background-size: 200% 200%;
+    animation: navCtaPulse 2.8s ease-in-out infinite;
+  }
+
+  .btn-teal {
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded bg-bm-teal text-white font-display font-medium text-[14px] tracking-tight transition-colors duration-150 hover:bg-bm-teal-dk;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded border border-white/30 text-white font-display font-medium text-[14px] tracking-tight transition-colors duration-150 hover:border-white/60 hover:bg-white/5;
+  }
+
+  .btn-ghost-dark {
+    @apply inline-flex items-center justify-center px-5 py-2.5 rounded border border-bm-slate/25 text-bm-slate font-display font-medium text-[14px] tracking-tight transition-colors duration-150 hover:border-bm-slate/50 hover:bg-bm-slate/5;
+  }
+
+  .eyebrow {
+    @apply font-mono font-normal text-[12px] tracking-[0.12em] uppercase;
+  }
+
+  .section-container {
+    @apply max-w-4xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-wide {
+    @apply max-w-5xl mx-auto px-6 lg:px-8;
+  }
+
+  .prose-meridian p {
+    @apply text-[16px] leading-[1.7] text-bm-slate/80;
+  }
+
+  .prose-meridian p + p {
+    @apply mt-5;
+  }
+
+  .card-light {
+    @apply bg-white rounded-md border border-bm-border-light p-6 shadow-sm;
+  }
+
+  .card-dark {
+    @apply bg-bm-dusk rounded-md border border-bm-border-dark p-6;
+  }
+
+  .teal-bar {
+    @apply border-l-[3px] border-bm-teal pl-5;
+  }
+
+  .severity-critical {
+    @apply font-mono font-normal text-[11px] uppercase tracking-[0.1em] text-bm-coral;
+  }
+
+  .severity-high {
+    @apply font-mono font-normal text-[11px] uppercase tracking-[0.1em] text-bm-amber;
+  }
+
+  .severity-medium {
+    @apply font-mono font-normal text-[11px] uppercase tracking-[0.1em] text-bm-stone;
   }
 }
