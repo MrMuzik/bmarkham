@@ -1,0 +1,26 @@
+# Bryan Markham — bryanmarkham.com
+
+Bryan Markham is an 18-year front-end engineer and digital strategist based in Raleigh, NC. He diagnoses where DTC stores leak margin: the broken script, the trust gap on the product page, the ad traffic landing on a page that loads in 8 seconds. He ranks every leak by dollar impact and hands founders the fix order.
+
+## The Margin Leak Audit
+
+A complete structural diagnostic of a DTC store. Five to seven days. Every margin leak documented with evidence, priced by impact, and ranked into a fix order the client's team can execute. $2,997. Limited monthly slots.
+
+Guarantee: if the audit fails to identify at least three ranked, actionable margin leaks, the client receives a full refund.
+
+The diagnostic runs in two stages: a proprietary engine trained on Bryan's methodology (machine breadth), followed by Bryan's personal review of every finding (expert judgment). Nothing reaches the report without passing both.
+
+## CitedScore
+
+Bryan also operates CitedScore (citedscore.com), an automated platform that measures how often brands appear in AI-generated responses across ChatGPT, Google AI Overviews, Gemini, and Perplexity.
+
+## Pages
+
+- / — Home: overview of the practice, the diagnostic approach, and the Margin Leak Audit
+- /margin-leak-audit — Full audit description, methodology, sample findings, and booking form
+- /about — Bryan's background, 18-year career summary, and credentials
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/bryanmarkham/
+- Location: Raleigh, NC

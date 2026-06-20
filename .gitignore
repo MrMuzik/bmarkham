@@ -13,3 +13,6 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+analytics-setup.md
+bryanmarkham-site-content-v3.md
+reference/
